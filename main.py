@@ -54,9 +54,7 @@ worker = 16
 size = 3000
 total = round(605368/(size*worker))
 columns = ['number', '제목', '답변상태', '참여인원', '카테고리', '청원시작', '청원마감', '청원내용', '답변원고']
-for i in range(total+1):
-    if i != 12:
-        continue
+for i in range(total):
     df = pd.DataFrame()
     df = ray.put(df)
     starting = 605368 - (size*worker*i)
