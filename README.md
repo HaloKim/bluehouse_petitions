@@ -127,6 +127,6 @@ df.to_parquet('Bluehouse_dump.parquet')
 
 # reference
 
-[대통령기록관]("http://webarchives.pa.go.kr/19th/www.president.go.kr/petitions/{}".format(code))
+[대통령기록관]("http://webarchives.pa.go.kr/19th/www.president.go.kr/petitions/{}".format(code)")
 
 [RAY](https://www.ray.io/)
