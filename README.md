@@ -50,7 +50,7 @@ def main(data, h, ram, iteration):
         e = s-iteration
     for code in tqdm(range(s, e, -1)):
         try:
-            url = "http://19president.pa.go.kr/petitions/{}".format(code)
+            url = "http://webarchives.pa.go.kr/19th/www.president.go.kr/petitions/{}".format(code)
             res = requests.get(url)
             parser = fromstring(res.text)
 
