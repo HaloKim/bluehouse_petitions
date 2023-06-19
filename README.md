@@ -10,6 +10,12 @@ worker = 16
 size = 3000
 ```
 
+# Huggingface
+
+Huggingface에서 사용할 수 있도록 데이터를 업로드하였습니다~
+
+[bluehouse-national-petition](https://huggingface.co/datasets/dev7halo/bluehouse-national-petition)
+
 # Requirements
 
 ```python
